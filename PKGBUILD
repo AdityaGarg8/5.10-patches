@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgbase=mbp-16.1-linux-wifi
-pkgver=5.10.33
+pkgver=5.10.59
 _srcname=linux-${pkgver}
 pkgrel=1
 pkgdesc='Linux for MBP 16.1 Wifi'
@@ -54,7 +54,10 @@ source=(
   7001-drm-i915-fbdev-Discard-BIOS-framebuffers-exceeding-h.patch
 
   # Broadcom WIFI/BT device support
-  wifi-bigsur.patch
+  8001-corellium-wifi-bigsur.patch
+  8002-brcmfmac-4377-mod.patch
+  8003-brcmfmac-4377-64bit-regs.patch
+  8004-brcmfmac-4377-chip-ids.patch
 )
 
 validpgpkeys=(
@@ -235,7 +238,7 @@ done
 
 
 
-md5sums=('4a3d219c4cb2eb386ec5aeff4877ae07'
+md5sums=('87020b04c0c608c5f06ef0c27cda3064'
          'SKIP'
          '2c13180d8d8b8986dd69ec1f379898d7'
          'd991e64e837e7d32a8fedb0022b4ce74'
@@ -254,7 +257,10 @@ md5sums=('4a3d219c4cb2eb386ec5aeff4877ae07'
          '6993bdf388ea4b68a95cef322a4d0c7b'
          '53c409842d3e611fb60b9dbef49a8342'
          '7bb43fcb0bfe0dc2d17bb8ace17be192'
-         '72d0cb7abea192162be2fc098f460e40'
+         '2c3fcc1e1b3700f04e2220c9670bcdaf'
          '6b5c2b02c39db21a9fe5c198794059d4'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
-         'c92b7364c060d7ae010d7860419634fb')
+         'c92b7364c060d7ae010d7860419634fb'
+         'af869021bdedfa4b4446f1a39fc02a70'
+         'ad2552bc11f7fd9d57ccda27272fee44'
+         '38d4f8d2995e105d4da03167f49bfb41')
