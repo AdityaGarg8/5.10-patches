@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgbase=mbp-16.1-linux-wifi
-pkgver=5.10.62
+pkgver=5.10.63
 _srcname=linux-${pkgver}
 pkgrel=1
 pkgdesc='Linux for MBP 16.1 Wifi'
@@ -238,7 +238,7 @@ done
 
 
 
-md5sums=('314276fdfa442bb168d05c87e704bdad'
+md5sums=('ad5965c93acf124375dc54fcad8bab2a'
          'SKIP'
          '2c13180d8d8b8986dd69ec1f379898d7'
          'd991e64e837e7d32a8fedb0022b4ce74'
