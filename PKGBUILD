@@ -44,8 +44,9 @@ source=(
   4004-HID-apple-Add-support-for-MacBookPro15-1-keyboard-tr.patch
   4005-HID-apple-Add-support-for-MacBookPro15-4-keyboard-tr.patch
   4006-HID-apple-Add-support-for-MacBookPro16-2-keyboard-tr.patch
-  4007-HID-apple-Add-support-for-MacBookAir9-1-keyboard-tra.patch
-  4008-HID-apple-Add-support-for-MacBookPro16-1-keyboard-tr.patch
+  4007-HID-apple-Add-support-for-MacBookPro16-3-keyboard-tr.patch
+  4008-HID-apple-Add-support-for-MacBookAir9-1-keyboard-tra.patch
+  4009-HID-apple-Add-support-for-MacBookPro16-1-keyboard-tr.patch
 
   # MBP Peripheral support
   6001-media-uvcvideo-Add-support-for-Apple-T2-attached-iSi.patch	# UVC Camera support
@@ -250,14 +251,15 @@ md5sums=('a1a09e235b14d780d39a2265f2dd6c95'
          '5f7b6f9b4cc4ac46b3678c95f3ffe4a3'
          '240b3d1e13f183e1c9a8a384583a7003'
          '4112d17440b0c43fb6ef21128b991f8c'
-         '7c9264ad45642017acf021aa2d132b1e'
-         '903eaeff99c80a9c7421e3f9333366f8'
-         '40a1788fa42fbcdb4213ede953f8a613'
-         '06e649da820bc6d2049df27a67999c03'
-         '6993bdf388ea4b68a95cef322a4d0c7b'
-         '53c409842d3e611fb60b9dbef49a8342'
-         '7bb43fcb0bfe0dc2d17bb8ace17be192'
-         '2c3fcc1e1b3700f04e2220c9670bcdaf'
+         '2192d7b8343e0c84368a06a745addac6'
+         '5c370df635441ceee13bd4d76faa3124'
+         '5172bbff4623ac1c061c2fcc742d67d6'
+         'c343a2f05e2d354050ab36fcd8830d35'
+         '7ffc8985a7c4e59de48bed389151d2b9'
+         'c067de828db8bd4bd85c111ef6eccc3e'
+         '938994075cc25375f491dd779b8928b9'
+         'a2d1acc2994f8df9b2ce0efa3b3e622c'
+         'bfc5adf91d389b52e9e0e61bc313b980'
          '6b5c2b02c39db21a9fe5c198794059d4'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
          'c92b7364c060d7ae010d7860419634fb'
