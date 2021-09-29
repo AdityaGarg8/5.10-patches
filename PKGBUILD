@@ -60,9 +60,7 @@ source=(
 
   # Broadcom WIFI/BT device support
   8001-corellium-wifi-bigsur.patch
-  8002-brcmfmac-4377-mod.patch
-  8003-brcmfmac-4377-64bit-regs.patch
-  8004-brcmfmac-4377-chip-ids.patch
+  8002-Add-support-for-BCM4377.patch
 )
 
 validpgpkeys=(
@@ -269,6 +267,4 @@ md5sums=('7c33436821430831eea0510bd840a0cb'
          '6b5c2b02c39db21a9fe5c198794059d4'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
          'c92b7364c060d7ae010d7860419634fb'
-         'd368733b359056b3d25ad13596ff9ec7'
-         'ad2552bc11f7fd9d57ccda27272fee44'
-         '38d4f8d2995e105d4da03167f49bfb41')
+         '447a40025b3f491bf37dfd53f80dddb8')
