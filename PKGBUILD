@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgbase=mbp-16.1-linux-wifi
-pkgver=5.10.69
+pkgver=5.10.70
 _srcname=linux-${pkgver}
 pkgrel=1
 pkgdesc='Linux for MBP 16.1 Wifi'
@@ -27,8 +27,7 @@ source=(
   0002-HID-quirks-Add-Apple-Magic-Trackpad-2-to-hid_have_sp.patch
   
   # NVMe Fix
-  1001-revert-nvme.patch
-  1002-reapply-tcp-patch.patch
+  1001-nvme.patch
 
   # Hack for AMD DC eDP link rate bug
   2001-drm-amd-display-Force-link_rate-as-LINK_RATE_RBR2-fo.patch
@@ -61,6 +60,7 @@ source=(
   # Broadcom WIFI/BT device support
   8001-corellium-wifi-bigsur.patch
   8002-Add-support-for-BCM4377.patch
+  8003-Add-support-for-BCM4355.patch
 )
 
 validpgpkeys=(
@@ -241,13 +241,12 @@ done
 
 
 
-md5sums=('7c33436821430831eea0510bd840a0cb'
+md5sums=('40ec9411f1bb6909ab2dccd55a479143'
          'SKIP'
          '2c13180d8d8b8986dd69ec1f379898d7'
          'd991e64e837e7d32a8fedb0022b4ce74'
          'fa19116d53bd4cb9a097f480b241cc19'
-         '0fcc4b2329aeed5b7a36de442bb9f99f'
-         'd4fedbe5b2d64325d064e4bb4a9b87e0'
+         '1e7d4db63ecbcde7a45b29b53dfe2209'
          '4e95da49152e777a7451f8ff3034070b'
          'a248af1edd4dcc2cf83ffd88ce1e6e96'
          '4545735c36000c0615be989948a79aba'
@@ -267,4 +266,5 @@ md5sums=('7c33436821430831eea0510bd840a0cb'
          '6b5c2b02c39db21a9fe5c198794059d4'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
          'c92b7364c060d7ae010d7860419634fb'
-         'db0877f1776887f5af5d38d91e40b08e')
+         'db0877f1776887f5af5d38d91e40b08e'
+         '83be5c563dcae20e87ee679cabb74ba8')
