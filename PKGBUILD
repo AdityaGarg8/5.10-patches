@@ -47,6 +47,10 @@ source=(
   4007-HID-apple-Add-support-for-MacBookPro16-3-keyboard-tr.patch
   4008-HID-apple-Add-support-for-MacBookAir9-1-keyboard-tra.patch
   4009-HID-apple-Add-support-for-MacBookPro16-1-keyboard-tr.patch
+  
+  # Broadcom Wifi rambase debugging additions
+  5001-brcmfmac-move-brcmf_mp_device-into-its-own-header.patch
+  5002-brcmfmac-Add-ability-to-manually-specify-FW-rambase-.patch
 
   # MBP Peripheral support
   6001-media-uvcvideo-Add-support-for-Apple-T2-attached-iSi.patch	# UVC Camera support
@@ -55,9 +59,9 @@ source=(
   7001-drm-i915-fbdev-Discard-BIOS-framebuffers-exceeding-h.patch
 
   # Broadcom WIFI/BT device support
-  8001-corellium-wifi-bigsur.patch
-  8002-Add-support-for-BCM4377.patch
-  8003-Add-support-for-BCM4355.patch
+  8001-brcmfmac-Add-initial-support-for-the-BRCM4355.patch
+  8002-brcmfmac-Add-initial-support-for-the-BRCM4377.patch
+  9001-brcmfmac-p2p-Ensure-virtual-interface-is-initialized.patch
   9002-add-bluetooth-support-for-16,2.patch
 )
 
@@ -260,9 +264,11 @@ md5sums=('f3513f8f838a4c3b2da2a2d7447eea65'
          '938994075cc25375f491dd779b8928b9'
          'a2d1acc2994f8df9b2ce0efa3b3e622c'
          'bfc5adf91d389b52e9e0e61bc313b980'
+         '3612408a5ccfc7958f6e2dc18cd6d8ed'
+         '7b663c498d989624256e27e31cfe0293'
          '6b5c2b02c39db21a9fe5c198794059d4'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
-         'c92b7364c060d7ae010d7860419634fb'
-         'db0877f1776887f5af5d38d91e40b08e'
-         'ae8a137001959df9f7beaea32b63f35b'
+         '43f887c7776d284751cc6531628e80ac'
+         '23e6f137501a1559ade6bc73976700c8'
+         'f419463699d330fa6bec7b753998e2a8'
          '9ae69273ed144ab546667f6ee3348b94')
