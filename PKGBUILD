@@ -25,9 +25,6 @@ source=(
   # Arch Linux patches
   0001-ZEN-Add-sysctl-and-CONFIG-to-disallow-unprivileged-C.patch
   0002-HID-quirks-Add-Apple-Magic-Trackpad-2-to-hid_have_sp.patch
-  
-  # NVMe Fix
-  1001-nvme.patch
 
   # Hack for AMD DC eDP link rate bug
   2001-drm-amd-display-Force-link_rate-as-LINK_RATE_RBR2-fo.patch
@@ -61,6 +58,7 @@ source=(
   8001-corellium-wifi-bigsur.patch
   8002-Add-support-for-BCM4377.patch
   8003-Add-support-for-BCM4355.patch
+  9002-add-bluetooth-support-for-16,2.patch
 )
 
 validpgpkeys=(
@@ -246,7 +244,6 @@ md5sums=('f3513f8f838a4c3b2da2a2d7447eea65'
          '2c13180d8d8b8986dd69ec1f379898d7'
          'd991e64e837e7d32a8fedb0022b4ce74'
          'fa19116d53bd4cb9a097f480b241cc19'
-         '1e7d4db63ecbcde7a45b29b53dfe2209'
          '4e95da49152e777a7451f8ff3034070b'
          'a248af1edd4dcc2cf83ffd88ce1e6e96'
          '4545735c36000c0615be989948a79aba'
@@ -267,4 +264,5 @@ md5sums=('f3513f8f838a4c3b2da2a2d7447eea65'
          'b1d2a8aca562ad2bd6ff0bcb48fcbc70'
          'c92b7364c060d7ae010d7860419634fb'
          'db0877f1776887f5af5d38d91e40b08e'
-         'ae8a137001959df9f7beaea32b63f35b')
+         'ae8a137001959df9f7beaea32b63f35b'
+         '9ae69273ed144ab546667f6ee3348b94')
